@@ -1,0 +1,16 @@
+{
+    "short_name": "MyPWA",
+    "name": "My Progressive Web App",
+    "description": "A simple PWA built with Flask",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+        {
+            "src": "/static/icons/electronics.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

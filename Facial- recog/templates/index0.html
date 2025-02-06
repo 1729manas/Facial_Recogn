@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera Capture</title>
+  </head>
+  <body>
+    <h2>Capture Image Using Camera</h2>
+
+    
+    <video id="camera" autoplay playsinline width="320" height="240"></video>
+    <br />
+
+    
+    <button id="captureButton">Capture Photo</button>
+
+   
+    <canvas id="canvas" width="320" height="240" style="display: none"></canvas>
+
+    <form action="/predict_emotion" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="image" id="imageData" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <script>
+      const video = document.getElementById("camera");
+      const canvas = document.getElementById("canvas");
+      const captureButton = document.getElementById("captureButton");
+      const imageDataInput = document.getElementById("imageData");
+
+     
+      navigator.mediaDevices
+        .getUserMedia({ video: true })
+        .then((stream) => {
+          video.srcObject = stream;
+        })
+        .catch((error) => {
+          console.error("Camera access denied or not supported.", error);
+        });
+
+      
+      captureButton.addEventListener("click", () => {
+        
+        canvas
+          .getContext("2d")
+          .drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        
+        const dataUrl = canvas.toDataURL("image/jpeg");
+
+        
+        imageDataInput.value = dataUrl;
+      });
+
+      const form = document.forms[0];
+
+    </script>
+  </body>
+</html>

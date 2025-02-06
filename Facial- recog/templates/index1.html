@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="static/manifest.json">
+
+    <title>Emotion Detection</title>
+  </head>
+  <body>
+    <h2>Capture and Analyze Emotion</h2>
+
+    
+    <video id="camera" autoplay playsinline width="320" height="240"></video>
+    <br />
+
+    
+    <button id="captureButton">Capture Photo</button>
+
+    
+    <canvas id="canvas" width="320" height="240" style="display: none"></canvas>
+
+   
+    <h3>Emotion Detection Result:</h3>
+    <img
+      id="resultImage"
+      width="320"
+      height="240"
+      alt="Result will appear here"
+    />
+
+    <script>
+      const video = document.getElementById("camera");
+      const canvas = document.getElementById("canvas");
+      const captureButton = document.getElementById("captureButton");
+      const resultImage = document.getElementById("resultImage");
+
+      
+      navigator.mediaDevices
+        .getUserMedia({ video: true })
+        .then((stream) => {
+          video.srcObject = stream;
+        })
+        .catch((error) => {
+          console.error("Camera access denied or not supported.", error);
+        });
+
+      
+      captureButton.addEventListener("click", async () => {
+      
+        canvas
+          .getContext("2d")
+          .drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        
+        const base64Image = canvas.toDataURL("image/jpeg").split(",")[1]; 
+
+        
+        const payload = JSON.stringify({
+          image: `data:image/jpeg;base64,${base64Image}`,
+        });
+
+        try {
+         
+          const response = await fetch("/emotion_and_face", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: payload,
+          });
+
+          if (response.ok) {
+            const blob = await response.blob();
+            resultImage.src = URL.createObjectURL(blob);
+          } else {
+            console.error(
+              "Failed to fetch emotion detection:",
+              await response.text()
+            );
+          }
+        } catch (error) {
+          console.error("Error:", error);
+        }
+      });
+
+      if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('static/service-worker.js')
+                .then(() => console.log('Service Worker registered'))
+                .catch((error) => console.error('Service Worker registration failed:', error));
+        }
+    </script>
+  </body>
+</html>

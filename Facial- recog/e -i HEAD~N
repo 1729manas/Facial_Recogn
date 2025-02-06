@@ -1,0 +1,233 @@
+[33mcommit 6164eef119f6af4bc0b91a86fefcd26bf564a18f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Anubhav Shrimal <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sat Apr 14 10:28:37 2018 +0530
+
+    Updated with K nearest neighbors approach rather than SVM
+
+[33mcommit bc554ef32113651f0891d25bc8a1b3c89dfc18b3[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Mon Aug 7 22:00:00 2017 +0530
+
+    Corrected model path
+
+[33mcommit 12dac9653fbeeed7e61d9d806dbebccfd14bc7f5[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Aug 6 22:00:00 2017 +0530
+
+    Corrected model path
+
+[33mcommit d5574e166ea80ff8e929dcc4f7f741176542e6a7[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Mon Jul 17 22:00:00 2017 +0530
+
+    Updated README
+
+[33mcommit 91b59c4a48d65ec62ffc4f19e2e8f9adb81b78c7[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jul 16 00:30:08 2017 +0530
+
+    Updated REAMDE GIF size
+
+[33mcommit f50e3a808ea4c6e1a2fde31c2efd252634fa21fd[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jul 16 00:28:48 2017 +0530
+
+    Updated with larger gif size
+
+[33mcommit d16ceb29e9aeec3c71e47b245da88f22fdc9fdb8[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jul 16 00:22:45 2017 +0530
+
+    Updated README with GIF video demo and screenshorts link changed
+
+[33mcommit 4fb53055be57bd9a47a451de2cb8452892dda933[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jul 16 00:22:26 2017 +0530
+
+    Updated train.py
+
+[33mcommit 36f2ccc5e17d9be00653ecd4093de957eb6b1486[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sat Jul 15 22:12:00 2017 +0530
+
+    Updated predict.py
+
+[33mcommit 37a8ae89a4cea20919ae5c61aa37be81e29431f9[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Tue Jun 20 22:12:00 2017 +0530
+
+    removed screenshort 5
+
+[33mcommit 7a0a08e3cad56dc3a19486dc5b723ab7ad71f615[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Tue Jun 20 22:11:00 2017 +0530
+
+    removed screenshort 4
+
+[33mcommit 029c5298334413049537c0b42cc99d2d45a9645b[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Tue Jun 20 22:01:00 2017 +0530
+
+    removed screenshort 3
+
+[33mcommit bccdbf722fa58d0bbb9ca3894643d6c4a4d0d194[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jun 11 22:00:00 2017 +0530
+
+    removed screenshort 2
+
+[33mcommit 2f22f0075959d8aab925c00c7d3992c7f5861598[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jun 11 22:00:00 2017 +0530
+
+    removed screenshort 1
+
+[33mcommit e1dfba30c91cd7a68223536176561bf7c61ca1fc[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jul 16 00:18:41 2017 +0530
+
+    Added webcam.py
+
+[33mcommit 051620524f43ee74124fc6f7960ce08d4803a06b[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sat Jul 15 10:38:40 2017 +0530
+
+    Updated README
+
+[33mcommit a5b53d427fbc828ee80b65dbe45028310bbb60db[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Fri Jul 14 22:07:17 2017 +0530
+
+    updated readme
+
+[33mcommit 900a1112f7cafc074969365711496b502c6ef631[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Fri Jul 14 21:57:31 2017 +0530
+
+    Added vote of thanks to readme
+
+[33mcommit 7d7cdd5a8794154ea21e09de3700be44577f520d[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Fri Jul 14 21:00:16 2017 +0530
+
+    renamed folder
+
+[33mcommit e8e2fea16ec079d78f3fd491b1da726484e1c619[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Fri Jul 14 21:00:07 2017 +0530
+
+    Updated readme
+
+[33mcommit 7b19a19c573832d407bc1298f7e00d924ca6c4b0[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 13 22:16:00 2017 +0530
+
+    updated readme
+
+[33mcommit 8ce536099495e88e5bf893fb2a15a5f66b258678[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 13 22:15:00 2017 +0530
+
+    Updated gitignore
+
+[33mcommit e35ec589b405b6e5f1a3e46b5e9aeea93066f8c4[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Fri Jul 14 18:43:21 2017 +0530
+
+    Updated project README
+
+[33mcommit 6ac52843e07e3205ca226364f2555a3e56c6d483[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 13 22:15:00 2017 +0530
+
+    Added project screenshorts
+
+[33mcommit 2421fef947686880218daca226e63daa33892299[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 13 22:10:00 2017 +0530
+
+    updated predict.py with colorful text
+
+[33mcommit 4bfeddb743a3763c33ea8b3d47025ab232e780bd[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 13 22:00:00 2017 +0530
+
+    updated train.py with colorful text
+
+[33mcommit caeb811760a3008543223a3d517784ce9aa39e3f[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 13 22:00:00 2017 +0530
+
+    updated create encodings with colorful text
+
+[33mcommit 98bbff5f95db7541124372eff343490278e9382a[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Wed Jul 12 22:00:00 2017 +0530
+
+    Added file to predict the new images in testing folder
+
+[33mcommit a37ceac178ff7d4dcedc39ce6fe7d692901aabec[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Tue Jul 11 22:00:00 2017 +0530
+
+    Added file to train and save the face recognition classifier
+
+[33mcommit 4b785bd211b7d7f826a869f8e1b7d2da28dadbb5[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Mon Jul 10 22:00:00 2017 +0530
+
+    added file to create image encodings
+
+[33mcommit 725dddb5b5ca29cfea512c5e98069b1df2a7fab6[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sun Jul 9 22:00:00 2017 +0530
+
+    Added face recognition api
+
+[33mcommit c787418c2e5eabdf0fdb8c7004e7ec561162d689[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Sat Jul 8 22:00:00 2017 +0530
+
+    updated gitignore
+
+[33mcommit 702f56c42776b9c400e68b0ef1c9650eeba1f850[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Fri Jul 7 22:00:00 2017 +0530
+
+    added program which projects faces and aligns them
+
+[33mcommit 74f827db0a8a7f35ac68cc9fdb684c790d7b2a36[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Wed Jul 5 22:00:00 2017 +0530
+
+    added find facial landmarks demo program
+
+[33mcommit 0e4ea1ec7e15a5f973702e2a20cc4d9b326a8be6[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Tue Jul 4 22:00:00 2017 +0530
+
+    added find face demo python program
+
+[33mcommit 3ad5207bdfd139d69e3d1f7cc8d9baf4253c0214[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 6 17:09:16 2017 +0530
+
+    Added dlib_face_recognition pretrained model
+
+[33mcommit d06eb28ca3a9ab71727e95fa18ccbc1720165927[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 6 17:08:52 2017 +0530
+
+    Added shape_predictor pre trained model
+
+[33mcommit b0b8b7d4f79a21150d3cc378a322d35167a5d278[m
+Author: [1;31manubhavshrimal[m <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 6 17:08:05 2017 +0530
+
+    Added gitignore file
+
+[33mcommit 50ecc671a77c6f3bed305af10de94b2ba56e845a[m
+Author: Anubhav Shrimal <[1;31manubhavshrimal[m@gmail.com>
+Date:   Thu Jul 6 17:06:25 2017 +0530
+
+    Initial commit
